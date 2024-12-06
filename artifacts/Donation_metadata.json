@@ -125,6 +125,10 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -155,11 +159,11 @@
 	},
 	"sources": {
 		"Donation.sol": {
-			"keccak256": "0xabd90bb58b302088df5a72c40de8a568ab93632f267e8fed94b4be3fd19096e9",
+			"keccak256": "0xbce49be6a86f1faf8c7a2cae9253b9aecc36a7293a14924ca449e3c242007d14",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1abefca4d0b99e1b69d5cec6fca4bdfeb01f50858a08c7351060a7efe3940f00",
-				"dweb:/ipfs/QmVoyfBHWAYT9mQoF42GScomAuUQ8dQjH7wKT5Mrhc9wWL"
+				"bzz-raw://c0924909a694b089e72ab8f0e834276890be22f8cdf24d7269205390126335cf",
+				"dweb:/ipfs/QmWHPzkGUT3NeDhoWx2owzVZDtCGACJYDPyq6y1w4pX1MW"
 			]
 		},
 		"PriceConverter.sol": {

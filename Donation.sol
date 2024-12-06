@@ -46,4 +46,7 @@ require(
 
         emit FundsWithdrawn(owner, contractBalance);
     }
+    receive() external payable {
+    emit DonationReceived(msg.sender, msg.value);
+}
 }
